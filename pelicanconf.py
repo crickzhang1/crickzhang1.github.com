@@ -12,11 +12,16 @@ DEFAULT_LANG = u'en'
 # Blogroll
 LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
           ('Python.org', 'http://python.org'),
-          ('Jinja2', 'http://jinja.pocoo.org'),
-          ('You can modify those links in your config file', '#'),)
+          ('Github', 'http://github.com'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('My Github page', 'https://github.com/crickzhang1'),
+          )
 
 DEFAULT_PAGINATION = False
+
+USE_FOLDER_AS_CATEGORY = True
+
+SUMMARY_MAX_LENGTH = 100
+
+DISPLAY_PAGES_ON_MENU = True

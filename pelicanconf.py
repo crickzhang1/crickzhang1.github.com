@@ -30,3 +30,10 @@ ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
 
 DEFAULT_DATE_FORMAT = '%H:%M, %a %d %B %Y'
+
+THEME = "notmyidea"
+
+DISQUS_SITENAME = "crickzhang1"
+GITHUB_URL = 'http://github.com/crickzhang1/'
+
+STATIC_PATHS = ["images", ]

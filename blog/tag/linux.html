@@ -34,8 +34,64 @@
 
                             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="../posts/2013/02/25/install-and-configure-gentoo.html">Install and configue Gentoo</a></h1> 
+                    <h1 class="entry-title"><a href="../posts/2013/03/07/recover-grub-to-mbr-using-a-linux-install-cd.html">Recover GRUB to MBR/EBR using a Linux install-cd</a></h1> 
                     <footer class="post-info">
+        <abbr class="published" title="2013-03-07T18:46:00">
+                18:46, Thu 07 March 2013
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="../author/crick-zhang.html">Crick Zhang</a>
+        </address>
+        <p>In <a href="../category/computing.html">Computing</a>. </p>
+<p>tags: <a href="../tag/linux.html">Linux</a><a href="../tag/grub.html">GRUB</a></p>
+</footer><!-- /.post-info --><p>Occasionally GRUB in MBR (Main Boot Record) or EBR (Extended Boot Record) get
+corrupted in our Linux box, and will boot correctly. So come the following
+few steps for recovering GRUB installation just as a note for convenience.
+A bootable Linux install-cd is sufficient for this purpose, and I prefer a
+<a class="reference external" href="http://distfiles.gentoo.org/releases/amd64/autobuilds/current-iso/">Gentoo minimal installation ISO</a> (as a bootable CD or bootable USB pen).</p>
+<p>The following assumption is made:</p>
+<ul class="simple">
+<li>The first partation (<cite>/dev/sda1</cite>) of the harddisk holds the main Linux system
+(<cite>/bin</cite>, <cite>/usr/bin</cite>, <cite>/boot</cite>, etc.) and in which GRUB related files should
+be OK.</li>
+</ul>
+<p>Boot the computer with the installing medium into the Gentoo shell.
+Here are the recovery steps:</p>
+<div class="highlight"><pre><span class="nv">$ </span><span class="c"># Necessary mounts</span>
+<span class="nv">$ </span>mkdir -p /mnt/gentoo
+<span class="nv">$ </span>mount /dev/sda1 /mnt/gentoo
+<span class="nv">$ </span>mount -t proc none /mnt/gentoo
+<span class="nv">$ </span>mount -o <span class="nb">bind</span> /dev /mnt/gentoo/dev
+<span class="nv">$ </span><span class="c"># Chroot in the Linux system in our harddisk</span>
+<span class="nv">$ </span>chroot /mnt/gentoo /bin/bash
+<span class="nv">$ </span><span class="nb">source</span> /etc/profile
+<span class="nv">$ </span><span class="c"># Find the rootfs</span>
+<span class="nv">$ </span>grep -v rootfs /proc/mounts &gt; /etc/mtab
+<span class="nv">$ </span><span class="c"># Install GRUB to MBR</span>
+<span class="nv">$ </span>grub-install /dev/sda
+<span class="nv">$ </span>umount /mnt/gentoo/proc
+<span class="nv">$ </span>umount /mnt/gentoo/bind
+<span class="nv">$ </span>umount /gentoo
+<span class="nv">$ </span><span class="c"># Reboot the system and GRUB will be OK.</span>
+</pre></div>
+<p>There are <a href="../posts/2013/03/07/recover-grub-to-mbr-using-a-linux-install-cd.html#disqus_thread">comments</a>.</p>                </article>
+                            </aside><!-- /#featured -->
+                            <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+                                                
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="../posts/2013/02/25/install-and-configure-gentoo.html" rel="bookmark"
+                           title="Permalink to Install and configue Gentoo">Install and configue Gentoo</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
         <abbr class="published" title="2013-02-25T21:45:00">
                 21:45, Mon 25 February 2013
         </abbr>
@@ -45,10 +101,13 @@
         </address>
         <p>In <a href="../category/computing.html">Computing</a>. </p>
 <p>tags: <a href="../tag/linux.html">Linux</a><a href="../tag/gentoo.html">Gentoo</a></p>
-</footer><!-- /.post-info --><p>There are <a href="../posts/2013/02/25/install-and-configure-gentoo.html#disqus_thread">comments</a>.</p>                </article>
-                                                                </aside><!-- /#featured -->
-                                                </ol><!-- /#posts-list -->
-                        </section><!-- /#content -->
+</footer><!-- /.post-info -->                <p class="first last">Notes about installtion and configuration Gentoo/Linux on my Lenovo laptop</p>
+
+                <a class="readmore" href="../posts/2013/02/25/install-and-configure-gentoo.html">read more</a>
+                <p>There are <a href="../posts/2013/02/25/install-and-configure-gentoo.html#disqus_thread">comments</a>.</p>                </div><!-- /.entry-content -->
+            </article></li>
+                            </ol><!-- /#posts-list -->
+                                                    </section><!-- /#content -->
                     <section id="extras" class="body">
                         <div class="blogroll">
                         <h2>blogroll</h2>

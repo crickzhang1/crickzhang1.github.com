@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Crickzhang's Blog</title><link href="http://crickzhang1.github.com/blog/" rel="alternate"></link><link href="http://crickzhang1.github.com/blog/feeds/all-zh_cn.utf8.atom.xml" rel="self"></link><id>http://crickzhang1.github.com/blog/</id><updated>2013-03-07T18:46:00+08:00</updated><entry><title>Recover GRUB to MBR/EBR using a Linux install-cd</title><link href="http://crickzhang1.github.com/blog/posts/2013/03/07/recover-grub-to-mbr-using-a-linux-install-cd.html" rel="alternate"></link><updated>2013-03-07T18:46:00+08:00</updated><author><name>Crick Zhang</name></author><id>tag:crickzhang1.github.com/blog,2013-03-07:posts/2013/03/07/recover-grub-to-mbr-using-a-linux-install-cd.html</id><summary type="html">&lt;p&gt;Occasionally GRUB in MBR (Main Boot Record) or EBR (Extended Boot Record) get
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Crickzhang's Blog</title><link href="http://crickzhang1.github.com/blog/" rel="alternate"></link><link href="http://crickzhang1.github.com/blog/feeds/all-zh_cn.utf8.atom.xml" rel="self"></link><id>http://crickzhang1.github.com/blog/</id><updated>2013-04-25T20:39:00+08:00</updated><entry><title>Some Resources for Research</title><link href="http://crickzhang1.github.com/blog/posts/2013/04/25/some-resources-for-research.html" rel="alternate"></link><updated>2013-04-25T20:39:00+08:00</updated><author><name>Crick Zhang</name></author><id>tag:crickzhang1.github.com/blog,2013-04-25:posts/2013/04/25/some-resources-for-research.html</id><summary type="html">&lt;p&gt;In research life, some convenient tools counld mostly be time-saving. The
+following are several common ones such as SCI and EI, being here
+just as a memo.&lt;/p&gt;
+&lt;div class="section" id="research-aggregate-sites"&gt;
+&lt;h2&gt;Research Aggregate sites&lt;/h2&gt;
+&lt;p&gt;ResearcgerID: &lt;a class="reference external" href="https://www.researcherid.com/"&gt;https://www.researcherid.com/&lt;/a&gt;
+Open Research and Contributor (orcid): &lt;a class="reference external" href="http://orcid.org/"&gt;http://orcid.org/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="science-citation-index-sci"&gt;
+&lt;h2&gt;Science Citation Index (SCI)&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://webofknowledge.com/"&gt;http://webofknowledge.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="Academia"></category><category term="Papers"></category></entry><entry><title>Recover GRUB to MBR/EBR using a Linux install-cd</title><link href="http://crickzhang1.github.com/blog/posts/2013/03/07/recover-grub-to-mbr-using-a-linux-install-cd.html" rel="alternate"></link><updated>2013-03-07T18:46:00+08:00</updated><author><name>Crick Zhang</name></author><id>tag:crickzhang1.github.com/blog,2013-03-07:posts/2013/03/07/recover-grub-to-mbr-using-a-linux-install-cd.html</id><summary type="html">&lt;p&gt;Occasionally GRUB in MBR (Main Boot Record) or EBR (Extended Boot Record) get
 corrupted in our Linux box, and will boot correctly. So come the following
 few steps for recovering GRUB installation just as a note for convenience.
 A bootable Linux install-cd is sufficient for this purpose, and I prefer a

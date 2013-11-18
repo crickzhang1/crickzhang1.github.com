@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-AUTHOR = u'Crick Zhang'
-SITENAME = u"Crickzhang's Blog"
+AUTHOR = u'Yinhe Zhang'
+SITENAME = u"Yinhe Zhang's Blog"
 SITEURL = 'http://crickzhang1.github.com/blog'
 
 TIMEZONE = 'Asia/Shanghai'

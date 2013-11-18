@@ -3,7 +3,7 @@
 
 AUTHOR = u'Yinhe Zhang'
 SITENAME = u"Yinhe Zhang's Blog"
-SITEURL = 'http://crickzhang1.github.com/blog'
+SITEURL = 'http://crickzhang1.github.io/blog'
 
 TIMEZONE = 'Asia/Shanghai'
 
@@ -16,6 +16,7 @@ LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
 
 # Social widget
 SOCIAL = (('My Github page', 'https://github.com/crickzhang1'),
+          (u'亚亚的站点', 'http://yaya.huamazhuang.com'),
           )
 
 DEFAULT_PAGINATION = False

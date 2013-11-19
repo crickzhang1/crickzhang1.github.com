@@ -63,24 +63,6 @@
 
 	      <!-- 留言系统 -->
 	      <div class="custom-center"><button id="commentbtn" type="button" class="btn btn-info" data-toggle="collapse" data-target="#comment">发表评论？</button></div>
-	      <div id="comment" class="collapse">
-		<!--高速版，加载速度快，使用前需测试页面的兼容性-->
-		<div id="SOHUCS"></div>
-		<script>
-		  (function(){
-		  var appid = 'cyqRCh2NM',
-		  conf = 'prod_8fb134f258b1f7865a6ab2d935a897c9';
-		  var doc = document,
-		  s = doc.createElement('script'),
-		  h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
-		  s.type = 'text/javascript';
-		  s.charset = 'utf-8';
-		  s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
-		  h.insertBefore(s,h.firstChild);
-		  window.SCS_NO_IFRAME = true;
-		  })()
-		</script>
-	      </div>
 
 	    </div>
 	    <!-- QR code in Chinese -->
@@ -132,25 +114,7 @@
 	      </ul>
 
 	      <!-- 留言系统 -->
-	      <div class="custom-center"><button id="commentbtn" type="button" class="btn btn-info" data-toggle="collapse" data-target="#comment">Leave a comment？</button></div>
-	      <div id="comment" class="collapse">
-		<!--高速版，加载速度快，使用前需测试页面的兼容性-->
-		<div id="SOHUCS"></div>
-		<script>
-		  (function(){
-		  var appid = 'cyqRCh2NM',
-		  conf = 'prod_8fb134f258b1f7865a6ab2d935a897c9';
-		  var doc = document,
-		  s = doc.createElement('script'),
-		  h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
-		  s.type = 'text/javascript';
-		  s.charset = 'utf-8';
-		  s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
-		  h.insertBefore(s,h.firstChild);
-		  window.SCS_NO_IFRAME = true;
-		  })()
-		</script>
-	      </div>
+	      <div class="custom-center"><button id="commentbtnEN" type="button" class="btn btn-info" data-toggle="collapse" data-target="#comment">Leave a comment？</button></div>
 
 	    </div>
 	    <!-- QR code in English -->
@@ -179,6 +143,26 @@
 	</footer>
       </div><!-- end English content tab -->
     </div>  <!-- end tab content -->
+
+    <!-- 搜狐畅言 -->
+    <div id="comment" class="collapse container">
+      <!--高速版，加载速度快，使用前需测试页面的兼容性-->
+      <div id="SOHUCS"></div>
+      <script>
+	(function(){
+	var appid = 'cyqRCh2NM',
+	conf = 'prod_8fb134f258b1f7865a6ab2d935a897c9';
+	var doc = document,
+	s = doc.createElement('script'),
+	h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
+	s.type = 'text/javascript';
+	s.charset = 'utf-8';
+	s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
+	h.insertBefore(s,h.firstChild);
+	window.SCS_NO_IFRAME = true;
+	})()
+      </script>
+    </div>
 
     <!-- Bootstrap core JavaScript
 	 ========================================================== -->

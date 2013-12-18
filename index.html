@@ -29,7 +29,7 @@
   <body>
     <!-- Tabbing navigation -->
     <div class="navbar navbar-fixed-top container" role="navigation">
-      <ul id="tab" class="nav nav-tabs container">
+      <ul id="tab" class="nav nav-tabs">
 	<li class="active"><a href="#chinese" data-toggle="tab">中文</a></li>
 	<li class=""><a href="#english" data-toggle="tab">English</a></li>
 	<li class="pull-right"><wb:follow-button uid="2295780827" type="gray_2" width="100" height="24" ></wb:follow-button></li>
@@ -38,13 +38,14 @@
 	    <a class="jiathis_follow_tqq" rel="http://t.qq.com/silveryzhang"></a>
 	    <a class="jiathis_follow_weixin" rel="http://crickzhang1.github.io/images/silveryzhang-weixin.jpegL"></a>
 	  </div>
-	</li><span class="pull-right">
+	</li>
+	<span class="pull-right">
 	  <!-- Linkedin Profile -->
-	  <a href="http://cn.linkedin.com/in/zhangyinhe" target="_top">
+	  <a href="http://cn.linkedin.com/in/zhangyinhe" title="View Yinhe Zhang's profile on LinkedIn" target="_top">
             <img src="http://s.c.lnkd.licdn.com/scds/common/u/img/webpromo/btn_liprofile_blue_80x15.png" width="80" height="15" border="0" alt="View Yinhe Zhang's profile on LinkedIn">
           </a>
 	  <!-- Goole+ 徽章 -->
-	  <a href="http://plus.google.com/108537760578691322012?prsrc=3" rel="publisher" target="_top" style="text-decoration:none;">
+	  <a href="http://plus.google.com/108537760578691322012?prsrc=3" rel="publisher" target="_top" style="text-decoration:none;" title="Follow Zhang Yinhe on Google+">
 	    <img src="http://ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;">&nbsp;
 	  </a>
 	</span>
@@ -157,49 +158,58 @@
     <!-- 留言系统 -->
     <div id="comment" class="collapse container">
       <h2>评论系统放这儿。</h2>
+      <h1>友言评论</h1>
+      <!-- UY BEGIN
+
+	   友言评论: http://www.uyan.cc/	 
+	-->
+      <div id="uyan_frame"></div>
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1878638"></script>
+      <!-- UY END -->
+
+      <h1>亦云评论</h1>
+      <!-- YiYun comment start 
+
+	   亦云评论： http://www.yiyun.cc/
+	-->
+      <div id="yiy-wrap"></div>
+      <script>
+	var yiy_width = "auto";
+	var yiy_box_position = 0;
+	var yiy_page_style = 1;
+	var yiy_per_page = 20;
+	var yiy_default_avatar = "http://www.yiyun.cc/images/avatar.jpg";
+	var yiy_default_text = "给点意见...";
+	var yiy_page_id = "";
+	(function() { 
+	var script = document.createElement("script");
+	var href = encodeURIComponent(window.location.href);
+	var title  = encodeURIComponent(document.title) || href;
+	var pNode = document.getElementsByTagName("body")[0];
+	var spage = yiy_page_id || '', ppage= yiy_per_page || 0;
+	script.src = "http://www.yiyun.cc/embed.js?href="+href+"&title="+title+"&spage="+spage+"&ppage="+ppage+"&pubkey=6d64d63514e203bf3f078d0d41e39271d07eb049";
+	pNode.appendChild(script);
+	})();
+      </script>
+      <!-- YiYun comment end -->  
     </div>
 
     <!-- Bootstrap core JavaScript
-	 ========================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+ 
+	 Placed at the end of the document so the pages load faster.
+      -->
     <script src="./assets/js/jquery.js"></script>
     <script src="./assets/js/bootstrap.js"></script>
 
-    <!-- Sina Weibo button -->
+    <!-- Sina Weibo button
+ 
+	 http://open.weibo.com/widget/followbutton.php
+      -->
     <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
 
-    <h1>友言评论</h1>
-    <!-- UY BEGIN -->
-    <div id="uyan_frame"></div>
-    <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1878638"></script>
-    <!-- UY END -->
-
-    <h1>亦云评论</h1>
-    <!-- YiYun comment start -->
-    <div id="yiy-wrap"></div>
-    <script>
-      var yiy_width = "auto";
-      var yiy_box_position = 0;
-      var yiy_page_style = 1;
-      var yiy_per_page = 20;
-      var yiy_default_avatar = "http://www.yiyun.cc/images/avatar.jpg";
-      var yiy_default_text = "给点意见...";
-      var yiy_page_id = "";
-      (function() { 
-      var script = document.createElement("script");
-      var href = encodeURIComponent(window.location.href);
-      var title  = encodeURIComponent(document.title) || href;
-      var pNode = document.getElementsByTagName("body")[0];
-      var spage = yiy_page_id || '', ppage= yiy_per_page || 0;
-      script.src = "http://www.yiyun.cc/embed.js?href="+href+"&title="+title+"&spage="+spage+"&ppage="+ppage+"&pubkey=6d64d63514e203bf3f078d0d41e39271d07eb049";
-      pNode.appendChild(script);
-      })();
-    </script>
-    <!-- YiYun comment end -->    
-
+    <!-- JiaThis Button (http://www.jiathis.com/getcode/) -->
     <!-- JiaThis Button - QQ/Weixin Follow -->
     <script type="text/javascript" src="http://v2.jiathis.com/code/jia.js" charset="utf-8"></script>
-
     <!-- JiaThis Button - Share -->
     <script type="text/javascript" >
       var jiathis_config={
@@ -217,7 +227,7 @@
     
     <!-- Google 徽章互动
 	 https://developers.google.com/+/web/+1button/?hl=zh-CN/
-	 
+
 	 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 	 <g:plus href="https://plus.google.com/{profileId}" rel="author"></g:plus>
 	 -->

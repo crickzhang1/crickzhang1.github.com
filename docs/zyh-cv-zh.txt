@@ -1,0 +1,106 @@
+张银鹤
+******
+
+目标职位: 机械/机电研发工程师
+
+手机： +86 185-0516-3421
+Email： zhangyinhe@gmail.com
+网站： http://zhangyinhe.cn
+           
+工作及研究经历
+==============
+
+目前已发表学术论文 7 篇,已授权发明专利 2 个(见附录)。
+
+2009.07 — 2013.11  助理研究员, 空间光学研究二部, 中科院长春光机所
+-----------------------------------------------------------------
+
+从事空间光学关键技术及仪器的研究和开发。主要负责主体结构和光学镜头结构的
+设计和优化以及计算机辅助光学装调和集成技术研究,熟悉结构分析和方案试验验
+证技术。同时负责项目实施过程的部分非标工装设计,如精密调整平台等。
+期间,共参与 4 项国家空间仪器项目任务的研发工作。
+
+* 中科院院预研项目某光学仪器研制,参与后期装调和相关试验。
+* 国家 863 项目某光学成像仪器研制,参与仪器主体框架和光学镜头的设计和
+  优化,负责整机的装调和试验验证。
+* 某光学仪器研制,参与仪器装调和相关试验。
+* 中科院院预研项目某光学仪器研制,参与结构设计、装调和相关试验。
+* 工作经验:
+  
+  * 使用 UGS NX、SolidWorks、AutoCAD、Patran/Nastran 等软件进行结构设
+    计和分析优化。
+  * 熟练使用 Matlab 等计算工具解决产品装调过程中的数据处理、分析和模型
+    回归优化。
+  * 熟悉光学仪器从方案论证、详细设计、制造到装配、装调和试验验证的完整
+    流程。
+
+2007.07 — 2009.06  MEMS/NEMS 中微纳米流动的研究(硕士期间), 吉林大学
+-------------------------------------------------------------------
+
+参与 863 项目“生物微纳流控系统设计软件开发”(项目号 2006AA04Z305)。
+
+* 利用分子动力学(Molecular Dynamics, MD)仿真和多尺度耦合计算方法研究
+  微纳流动现象,研究了电渗流的发生和流动机理和在微纳流控芯片中的应用。
+* 基于 C/Fotran 设计了 MD 仿真程序,利用 Python/Bash 设计实现了前、后
+  数据处理辅助程序。
+                   
+教育背景
+========
+
+* 2007.09 — 2009.06  工学硕士(保送研究生), 机械设计及理论, 吉林大学.
+* 2003.09 — 2007.06  工学学士(优秀毕业生), 机械工程及自动化, 吉林大学.
+
+计算机技能
+==========
+         
+* 工程软件: AutoCAD、CATIA、SolidWorks、UGS NX、Patran/Nastran、ADAMS
+* 程序设计: C/C++、Python、Fortran、Matlab、Bash、Git & SVN
+* 操作系统: 熟练使用 Linux,熟悉科学计算
+* 其它: TeX/LaTeX、Openoffice.org 办公套件、Emacs/Vim, QtiPlot (Origin)
+               
+语言技能
+========
+
+* 普通话：精通
+* 英语: 能够较流畅进行英语口头和书面交流,流畅阅读日常英文书报和专业英文文献。
+  (以优秀成绩通过国家英语四级,并获得英语口语证书,通过了大学英语六级)
+
+其它
+****
+
+在大学期间,连年荣获吉林大学一等奖学金和校优秀学生,并获得一次国家二等奖学金和一次吉林大学天奇股份奖学金。
+
+附录:发表文章和授权专利
+=======================
+
+专利
+----
+
+[1] 张银鹤,李志来,徐宏,董得义,杨会生. 空间相机蒙皮阻尼辅助支撑结构。
+    发明专利，专利号:ZL 2010 1 0596792.5,证书号：第 908191 号。
+[2] 宋涛,张银鹤,李志来,徐宏,胡海飞. 一种偏心轴焦面调焦机构。
+    发明专利，专利号:ZL 2010 1 0585900.9,证书号：第 1010499 号。
+
+文章
+----
+
+[1] 杨会生, 张银鹤, 柴放茂, 徐宏, 李志来, 关英俊. 离轴三反空间相机调焦机构
+    设计. 光学精密工程, 2012, 21(4): 948–954. 
+[2] Cao, Qianqian and Zuo, Chuncheng and Li, Lujuan and Zhang, Yinhe and
+    Yan, Guang. Electro-osmotic flow in nanochannels with voltage-controlled
+    polyelectrolyte brushes: Dependence on grafting density and normal electric field.
+    Journal of Polymer Science Part B: Polymer Physics, 2012, 50(11): 805–811.
+[3] Cao, Qianqian and Zuo, Chuncheng and Li, Lujuan and Zhang, Yinhe.
+    Electrophoresis of Bottle-Brush Polyelectrolytes in an Attractive Nanochannel.
+    Macro-molecular Theory and Simulations, 2012, 21(7): 492–499. 
+[4] 鲍赫, 杨利伟, 姜肖楠, 董得义, 张银鹤, 李志来. 空间光学相机调偏流机构设计.
+    光电工程, 2012, 39(6): 22–28.
+[5] Cao, Qianqian and Zuo, Chuncheng and Li, Lujuan and Zhang, Yinhe. Modulation
+    of electroosmotic flow by electric field-responsive polyelectrolyte brushes:
+    a molecular dynamics study. Microfluidics and Nanofluidics, 2012, 12(1).
+[6] Huisheng Yang, Deyi Dong, Yinhe Zhang, He Bao, Zhilai Li. Space Adaptability
+    Analysis and Experiment of Focusing Mechanism in Space Camera. In Proceedings
+    of International Conference on Micro/Nano Optical Engineering, 2011.
+[7] 苗菲, 左春柽, 李静, 张银鹤. 区间优化的仿生算法研究.
+    长春理工大学学报(自然科学版), 2008, 31(3): 147–148.
+

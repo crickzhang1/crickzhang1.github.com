@@ -1,0 +1,136 @@
+Yinhe Zhang
+===========
+
+Target: Mechanical/Electromechanical R&D Engineer
+
+"Exact but Flexible, Quick Learner and Good Teamworker.”
+
+Mobile: +86 185-0516-3421
+Email: zhangyinhe@gmail.com
+Website: http://zhangyinhe.cn
+
+Research and Professional Experiences
+=====================================
+
+7 research papers published and 2 patents authorized. (see the appendix)
+
+2009.07 -- 2013.11  Research Associate, Department of Space Optics
+------------------------------------------------------------------
+
+In Changchun Institute of Optics, Fine Mechanics and Physics (CIOMP), China Academy of Sciences (CAS).
+                   
+I was engaged in R&D for key technologies in space optics and instruments. I was
+mainly in charge of design and optimization of frame structures and lens, computer-
+aided alignment and assembly. I am familiar with structural analysis and testing. In the
+meantime, I designed some nonstandard fixtures.
+
+During the time,I have participated in R&D of four aerospace instruments projects.
+
+* Participated in the fabrication, assembly and verifying testings of one advanced
+  research project of optical instrument for CAS.
+* Participated in R&D of a optical imaging instrument for State High-Tech Development
+  Plan (863 Program), mainly in design and optimization of mainframe
+  structure and lens supports, and in charge of assembly, alignment and testing of
+  the instrument.
+* Participated in R&D of a optical instrument, mainly for assembly and alignmeng
+  and related testings.
+* Participated in the structural design, assembly and alignment, and testings of one
+  advanced research project of optical instrument for CAS.
+* Working Skills:
+  
+  – Design and optimizing of structures, mechanisms and optical elements, using
+  CAD/CAE tools such as UGS NX、SolidWorks、AutoCAD、Patran/Nastran, etc.
+  – Postprocessing and optimizing of data from assembly, alignment and tests of
+  products with Matlab/Python.
+  – Familiar with whole processes of optical instrument manufacturing, from con-
+  cepts of design, detailed design to verification with CAE tools and tests, and from
+  fabrication to mounting and alignment.
+  
+2007.07 -- 2009.06  Research on micro-/nano- fluid in Micro-/Nano- Electro-Mechanical Systems
+---------------------------------------------------------------------------------------------
+
+During postgraduate.
+
+Using Molecular Dynamics (MD) and multiscale computing methods to simulate micro-/nano-fluid
+phenomena and electroosmotic fluid. Basing on their microscopic mechanism,
+we explored their application in micro-/nano-fludic chips. This work was supported by the
+State High-Tech Development Plan (863 Program) project ”Development of Modeling
+Software for Biological Micro-/Nano-Fluidics.” (Grant NO. 2006AA04Z305).
+
+* MD simulation software was developed using C/Python, and auxiliary pre-/post-
+  processing codes were also developed using Python/Bash.
+    
+Education
+=========
+
+* 2007.09 — 2009.06  Master of Engineering (Recommended for admission) 
+  in Design and Theory of Mechanics, Jilin University, China.
+* 2003.09 — 2007.06  Bachelor of Engineering (summa cum laude), 
+  in Mechanical Engineering and Automation, Jilin University, China. 
+  (3 times of First-Class Scholarship and Unversity Outstanding Student,
+  one time of Second-Class National Scholarship.).
+  
+Various Skills
+==============
+
+Language Skills
+---------------
+
+* Mandarin: Proficient.
+* English: Fluent in reading, writing and fair in speaking. Can do translation work
+  both ways. Scored 92 on CET-4 in 2004 and 490 on CET-6 in 2005 respectively.
+
+Computer Skills
+---------------
+
+* Modeling: Master of AutoCAD、CATIA、SolidWorks、UGS NX、Patran/Nastran、ADAMS
+* Computer: C/C++、Python、Fortran、Matlab、Bash、Git & SVN
+* Familiar with Linux and scientific computing
+* Miscellaneous: TeX/LaTeX、Openoffice.org Office Suite、Emacs/Vim, etc.
+
+Hobbies
+=======
+
+In spare time, I like reading, swimming and singing.
+
+References
+==========
+
+Available upon request.
+
+Appendix: Published Patents and Papers
+======================================
+
+Patents in China
+----------------
+
+1. 张银鹤,李志来,徐宏,董得义,杨会生. 空间相机蒙皮阻尼辅助支撑结构.
+   发明专利,专利号:ZL 2010 1 0596792.5,证书号:第 908191 号。
+2. 宋涛,张银鹤,李志来,徐宏,胡海飞. 一种偏心轴焦面调焦机构. 
+   发明专利, 专利号:ZL 2010 1 0585900.9,证书号:第 1010499 号。
+
+Research Papers
+---------------
+
+1. Yang, Huisheng and Zhang, Yinhe and Chai, Fangmao and Xu, Hong and Li,
+   Zhilai and Guan, Yingjun. Design of focusing mechanism for off-axis TMA space
+   camera.Optics and Precision Engineering, 2012, 21(4): 948–954. (In Chinese,
+2. Cao, Qianqian and Zuo, Chuncheng and Li, Lujuan and Zhang, Yinhe and
+   Yan, Guang. Electro-osmotic flow in nanochannels with voltage-controlled poly-
+   electrolyte brushes: dependence on grafting density and normal electric field.
+   Journal of Polymer Science Part B: Polymer Physics, 2012, 50(11): 805–811.
+3. Cao, Qianqian and Zuo, Chuncheng and Li, Lujuan and Zhang, Yinhe. Elec-
+   trophoresis of bottle-brush polyelectrolytes in an attractive nanochannel. Macro-
+   molecular Theory and Simulations, 2012, 21(7): 492–499.
+4. Bao, He and Yang, Liwei and Jiang, Xiaonan and Dong, Deyi and Zhang, Yinhe
+   and Li, Zhilai. Design of draft adjusting mechanism for space optical camera.
+   Opto-Electronic Engineering, 2012, 39(6): 22–28. (In Chinese)
+5. Cao, Qianqian and Zuo, Chuncheng and Li, Lujuan and Zhang, Yinhe. Modula-
+   tion of electroosmotic flow by electric field-responsive polyelectrolyte brushes:
+   a molecular dynamics study. Microfluidics and Nanofluidics, 2012, 12(1).
+6. Yang, Huisheng and Dong, Deyi and Zhang, Yinhe and Bao, He and Li, Zhilai. 
+   Space adaptability analysis and experiment of focusing mechanism in space
+   camera. In Proceedings of International Conference on Micro/Nano Optical Engineering, 2011.
+7. Miao, Fei and Zuo, Chuncheng and Li, Jing and Zhang, Yinhe. Study on Bionic
+   Algorithm Used for the Interval Optimization. Journal of Changchun University
+   of Science and Technology (Natural Science Edition), 2008, 31(3): 147–148. (in Chinese)

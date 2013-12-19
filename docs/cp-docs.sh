@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DOCS="zyh-cv-zh.pdf zyh-cv-en.pdf zyh-cv-zh.txt zyh-cv-en.txt zyh-qrcode-en-embedded.png zyh-qrcode-zh-embedded.png"
+DOCS="zyh-cv-zh.pdf zyh-cv-en.pdf zyh-cv-zh.txt zyh-cv-en.txt zyh-qrcode-en-embedded.png zyh-qrcode-zh-embedded.png zyh-cv2-zh.pdf zyh-cv2-en.pdf"
 TARGET="."
 
 for doc in $DOCS;

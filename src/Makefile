@@ -56,7 +56,7 @@ html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
-	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)/*.html $(OUTPUTDIR)/theme $(OUTPUTDIR)/author $(OUTPUTDIR)/category $(OUTPUTDIR)/pages $(OUTPUTDIR)/posts $(OUTPUTDIR)/tag $(OUTPUTDIR)/drafts
+	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)/*.html $(OUTPUTDIR)/theme $(OUTPUTDIR)/author $(OUTPUTDIR)/category $(OUTPUTDIR)/pages $(OUTPUTDIR)/posts $(OUTPUTDIR)/tag $(OUTPUTDIR)/drafts $(OUTPUTDIR)/feeds
 
 regenerate:
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)

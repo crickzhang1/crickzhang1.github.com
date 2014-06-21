@@ -73,3 +73,4 @@ COVER_IMG_URL = "https://raw.githubusercontent.com/crickzhang1/static_res/master
 PROFILE_IMG_URL = "https://raw.githubusercontent.com/crickzhang1/static_res/master/img/profile-yh.jpg"
 TAGLINE = "Part Of COSMOS"
 COPYRIGHT_YEARS = "2012-2014"
+COPYRIGHT_NOTES = "All content in this site are copyrighted if not otherwise stated. And redistribution is allowed as long as is credited if not otherwise noted."

@@ -52,22 +52,24 @@ DISPLAY_CATEGORIES_ON_MENU = True
 
 DEFAULT_DATE_FORMAT = '%H:%M, %a %d %B %Y'
 
-THEME = "pure-single"
-#THEME = "notmyidea"
+STATIC_PATHS = ['img', 'extra/CNAME', 'extra/README.md']
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
+    'extra/README.md': {'path': 'README.md'},
+    }
+ARTICLE_EXCLUDES = ('pages','extra', 'img')
 
 DISQUS_SITENAME = "crickzhang1"
 GITHUB_URL = 'http://github.com/crickzhang1/'
 
-STATIC_PATHS = []
-
 # code blocks with line numbers
 PYGMENTS_RST_OPTIONS = {'linenos': 'table'}
 
-# Theme `pure` specific
+#THEME = "notmyidea"
+THEME = "pure-single"
 
+# Theme `pure` specific
 COVER_IMG_URL = "https://raw.githubusercontent.com/crickzhang1/static_res/master/img/bg.jpg"
 PROFILE_IMG_URL = "https://raw.githubusercontent.com/crickzhang1/static_res/master/img/profile-yh.jpg"
-
 TAGLINE = "Part Of COSMOS"
-
 COPYRIGHT_YEARS = "2012-2014"

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Galaxy of Yinhe</title><link href="http://zhangyinhe.cn/" rel="alternate"></link><link href="http://zhangyinhe.cn/feeds/misc.atom.xml" rel="self"></link><id>http://zhangyinhe.cn/</id><updated>2014-06-21T17:00:00+08:00</updated><entry><title>Blog Redesigned</title><link href="http://zhangyinhe.cn/blog-redesigned-en.html" rel="alternate"></link><updated>2014-06-21T17:00:00+08:00</updated><author><name>Yinhe Zhang</name></author><id>tag:zhangyinhe.cn,2014-06-21:blog-redesigned-en.html</id><summary type="html">&lt;p&gt;My blog redesigned!&lt;/p&gt;
-&lt;p&gt;It's still generated staticly by &lt;a class="reference external" href="http://getpelican.com"&gt;pelican&lt;/a&gt; and
-a resonsive theme &lt;a class="reference external" href="http://purepelican.com"&gt;purepelican&lt;/a&gt; with a little
-modification.&lt;/p&gt;
-&lt;p&gt;Hope I will keep active writing.&lt;/p&gt;
-</summary><category term="misc"></category></entry></feed>

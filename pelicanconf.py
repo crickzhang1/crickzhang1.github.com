@@ -52,12 +52,12 @@ DISPLAY_CATEGORIES_ON_MENU = True
 
 DEFAULT_DATE_FORMAT = '%H:%M, %a %d %B %Y'
 
-STATIC_PATHS = ['img', 'extra/CNAME', 'extra/README.md']
+STATIC_PATHS = ['extra/CNAME', 'extra/README.md']
 EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'},
     'extra/README.md': {'path': 'README.md'},
     }
-ARTICLE_EXCLUDES = ('pages','extra', 'img')
+ARTICLE_EXCLUDES = ('pages','extra', 'static')
 
 DISQUS_SITENAME = "crickzhang1"
 GITHUB_URL = 'http://github.com/crickzhang1/'
